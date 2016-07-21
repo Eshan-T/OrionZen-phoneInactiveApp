@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="orionzenApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of credits earned :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m67-fi-3Nb">
+                                <rect key="frame" x="29.5" y="42" width="262" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uef-nJ-BBI">
+                                <rect key="frame" x="132" y="83" width="56" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="72J-6H-TyI"/>
+                                    <constraint firstAttribute="height" constant="43" id="kSQ-Y6-gux"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seconds left until the next 10 credits :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KoN-g0-91b">
+                                <rect key="frame" x="16.5" y="134.5" width="287.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTU-BC-d6R">
+                                <rect key="frame" x="144" y="163" width="32.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total phone-inactive time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FeH-x7-8c2">
+                                <rect key="frame" x="61" y="424" width="199" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water_level.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CNI-b0-tFy">
+                                <rect key="frame" x="40" y="373" width="240" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="0dd-FL-IgU"/>
+                                    <constraint firstAttribute="height" constant="35" id="Yvm-81-6Fb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQh-Zp-CAi">
+                                <rect key="frame" x="99" y="463" width="123" height="69.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="58"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KoN-g0-91b" firstAttribute="top" secondItem="Uef-nJ-BBI" secondAttribute="bottom" constant="8.5" id="4hO-vw-4EB"/>
+                            <constraint firstItem="m67-fi-3Nb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="4lV-ae-55N"/>
+                            <constraint firstItem="KoN-g0-91b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5x8-x1-NxR"/>
+                            <constraint firstItem="CNI-b0-tFy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Iz9-pa-BzT"/>
+                            <constraint firstItem="EQh-Zp-CAi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="83" id="M3r-OF-sr2"/>
+                            <constraint firstItem="Uef-nJ-BBI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MeM-OX-ilY"/>
+                            <constraint firstItem="m67-fi-3Nb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PGP-mm-U5a"/>
+                            <constraint firstItem="EQh-Zp-CAi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qrx-tj-GSo"/>
+                            <constraint firstItem="bTU-BC-d6R" firstAttribute="top" secondItem="KoN-g0-91b" secondAttribute="bottom" constant="8" id="c16-Kn-MRN"/>
+                            <constraint firstItem="FeH-x7-8c2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g0T-4K-g0I"/>
+                            <constraint firstItem="FeH-x7-8c2" firstAttribute="top" secondItem="CNI-b0-tFy" secondAttribute="bottom" constant="16.5" id="hYa-5a-iJD"/>
+                            <constraint firstItem="bTU-BC-d6R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jcn-Mb-Bub"/>
+                            <constraint firstItem="Uef-nJ-BBI" firstAttribute="top" secondItem="m67-fi-3Nb" secondAttribute="bottom" constant="14.5" id="mTW-CF-sBm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EQh-Zp-CAi" secondAttribute="trailing" constant="82" id="olC-pQ-209"/>
+                            <constraint firstItem="EQh-Zp-CAi" firstAttribute="top" secondItem="FeH-x7-8c2" secondAttribute="bottom" constant="19" id="uSc-CP-oh8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EQh-Zp-CAi" secondAttribute="bottom" constant="35" id="z8F-dw-qwj"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="countDown" destination="bTU-BC-d6R" id="2l6-Q8-th8"/>
+                        <outlet property="creditLabel" destination="Uef-nJ-BBI" id="WOB-XD-qrB"/>
+                        <outlet property="heightConstraint" destination="Yvm-81-6Fb" id="Zyv-xK-Gg9"/>
+                        <outlet property="timerCount" destination="EQh-Zp-CAi" id="EJa-XG-sTn"/>
+                        <outlet property="waterLevel" destination="CNI-b0-tFy" id="ekf-ig-EQl"/>
+                        <outlet property="widthConstraint" destination="0dd-FL-IgU" id="1Zq-Kd-PpV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="303"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="water_level.jpg" width="300" height="200"/>
+    </resources>
+</document>
